@@ -30,9 +30,12 @@ You have two endpoints.
 
   Will return processed configuration data of an AWS EC2 instance.
 
-Your task is to get both responses and then validate that the processed
-configuration data and raw configuration data match, according to the
+Your task is to get both responses and then make a strategy to validate
+that the raw and processed configuration data match, according to the
 following table.
+
+It would be recommended to use a BDD approach and create simple step
+definitions.
 
 +------------------------------------+-------------------------------------------------------------+
 | Collection Object                  | Raw Key                                                     |
